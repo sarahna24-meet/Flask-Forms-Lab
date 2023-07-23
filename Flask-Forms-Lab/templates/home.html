@@ -28,8 +28,8 @@
 
   <!-- Add step 3 here: -->
 
-    {% for friend in friends %}
-        {{friend}}
+    {% for friend in facebook_friends %}
+        <li><a href ='http://127.0.0.1:5000/friend_exists/{{friend}}'>{{friend}}</a></li>
     {% endfor %}
 </ul>
 
